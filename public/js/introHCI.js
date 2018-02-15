@@ -11,7 +11,6 @@ $(document).ready(function() {
 function initializePage() {
 	$('.project a').click(addProjectDetails);
 
-	$('#colorBtn').click(randomizeColors);
 }
 
 /*
@@ -28,3 +27,13 @@ function addProjectDetails(e) {
 
 	console.log("User clicked on project " + idNumber);
 }
+/*
+$.post("/user/sendMessage",
+{
+	"email1": "do_not_reply@precisionconference.com",
+	"email2": "msb@cs.stanford.edu",
+	"email-content": "She should have died hereafter; There would have been a time for such a word..."
+},
+callbackFunction);
+//application takes action based on data
+*/
