@@ -20,10 +20,10 @@ function statusChangeCallback(response) {
 }
 function changeUser(response){
 	//hade fb login button
-	$('.facebookLogin' p).hide(response);
+	$('p''.facebookLogin').hide();
 	//change 'scott klemmer' to your name
-	$(#name h1).text(response.name);
+	$(h1:name).text(response.name);
 	//set your photo as profle picture
-	$(#photo img).attr("src",response.picture.data.url)
+	$(img:photo).attr("src",response.picture.data.url)
  
 }
